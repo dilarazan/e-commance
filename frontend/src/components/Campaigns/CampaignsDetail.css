@@ -1,0 +1,59 @@
+.single-campaigns {
+    margin-top: 40px;
+  }
+  
+  .single-campaigns figure img {
+    width: 100%;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-meta {
+    display: flex;
+    font-size: 12px;
+    column-gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-date {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-date::before,
+  .single-campaigns .campaigns-wrapper .campaigns-date::after {
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #e51414;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-tags a {
+    font-weight: 600;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-title {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-content {
+    margin-bottom: 15px;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #75767c;
+    margin-bottom: 10px;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-content blockquote {
+    padding: 20px 30px 12px 50px;
+    border-left: 4px solid #dee0ea;
+    margin: 20px 0;
+  }
+  
+  .single-campaigns .campaigns-wrapper .campaigns-content blockquote p {
+    margin-bottom: 0;
+  }

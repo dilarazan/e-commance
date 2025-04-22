@@ -1,0 +1,137 @@
+/* Genel stil */
+.admin-messages {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-list {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Mesaj öğesi stili */
+  .message-item {
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-item:hover {
+    background-color: #e9f1ff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Mesaj detayları */
+  .message-detail {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-detail h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .message-detail p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .message-detail .message-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .message-detail .message-footer .btn {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message-detail .message-footer .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* İkonlar ve başlıklar */
+  .message-item .message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .message-item .message-header h4 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .message-item .message-header .message-time {
+    font-size: 12px;
+    color: #777;
+  }
+  /* Yeni mesajları vurgulamak için */
+.message-item.new {
+    background-color: #e1f7d5; /* Yeni mesajlar için yeşil arka plan */
+    border-left: 5px solid #4CAF50; /* Yeşil renkli border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-item {
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-item:hover {
+    background-color: #e9f1ff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message-item .message-header h4 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  
+  /* Responsive tasarım */
+  @media (max-width: 768px) {
+    .message-item {
+      padding: 12px;
+    }
+  
+    .message-detail {
+      padding: 15px;
+    }
+  
+    .message-footer .btn {
+      padding: 6px 12px;
+    }
+  }
+  
